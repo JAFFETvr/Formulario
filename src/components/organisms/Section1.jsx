@@ -43,7 +43,7 @@ function Section1() {
   };
 
   const handleShowListClick = () => {
-    setShowStudentList(true);
+    setShowStudentList(!showStudentList);
   };
 
     return (
